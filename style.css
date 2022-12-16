@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(15, 34, 34);
+}
+.background{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    
+}
+.ball{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.ball:first-child{
+    background: linear-gradient(blue, rgb(88, 88, 214) );
+    top: -40px;
+    left: -110px;
+}.ball:last-child{
+    background:linear-gradient(red,rgba(255, 62, 62, 0.897));
+    right: -120px;
+    bottom: -30px;
+}
+form{
+    
+    height: 550px;
+    width: 400px;
+    top: 20px;
+    background-color: rgb(171, 102, 102,0.2) ;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(171, 102, 102) ;
+    box-shadow: 0 0 40px black;
+    padding: 50px 35px;
+    
+}
+form *{
+    font-family: 'Times New Roman', Times, serif ;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px ;
+    font-size: 20px;
+}
+
+
+button{
+    margin-top:50px;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background:linear-gradient(blue,violet);   
+    cursor: pointer;
+}
+.social{
+    margin-top: 30px;
+    display: flex;    
+    
+}
+.social a{
+    background-color: black;
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.social .google{
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 100%;
+}
+.social .twitter{
+    margin-left: -10px;
+}
+
+.social i{
+    color: blue;
+}
