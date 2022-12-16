@@ -116,3 +116,18 @@ button{
 .social i{
     color: blue;
 }
+H1{
+    color: white;
+   
+    margin-top: 2px;
+    width: 0%;
+    margin-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+marquee{
+    
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 400px;
+}
