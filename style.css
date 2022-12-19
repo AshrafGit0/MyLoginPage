@@ -7,7 +7,7 @@
 body{
     background-color: rgb(15, 34, 34);
 }
-.background{
+.container{
     width: 450px;
     height: 500px;
     position: absolute;
@@ -111,6 +111,7 @@ button{
 }
 .social .twitter{
     margin-left: -10px;
+    
 }
 
 .social i{
@@ -130,4 +131,7 @@ marquee{
     margin-top: 10px;
     width: 40%;
     margin-left: 400px;
+}
+.social a:hover{
+    background-color:rgba(255, 255, 255, 0.212);
 }
